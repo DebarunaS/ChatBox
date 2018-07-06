@@ -21,13 +21,11 @@ The walkthrough of the application-
 ## **Tools**
 
 - Android Studio
-- My Bitnami Parse API
+- Bitnami Parse API(AWS Tool)
 
 ## **Code Structure**
 
 Stepwise progressive code structure .Simple syntax and proper spacing and organizing.
-
-## **Test Cases**
 
 
 
