@@ -39885,21 +39885,21 @@ com.parse.starter.ChatActivity$2 -> com.parse.starter.ChatActivity$2:
     74:74:void done(java.lang.Object,java.lang.Throwable) -> done
 com.parse.starter.MainActivity -> com.parse.starter.MainActivity:
     boolean loginMode -> loginMode
-    31:32:void <init>() -> <init>
-    35:40:void redirectifloggedin() -> redirectifloggedin
-    43:58:void loginMode(android.view.View) -> loginMode
-    62:111:void signup(android.view.View) -> signup
-    114:120:void onCreate(android.os.Bundle) -> onCreate
+    32:33:void <init>() -> <init>
+    36:40:void redirectifloggedin() -> redirectifloggedin
+    43:55:void loginMode(android.view.View) -> loginMode
+    59:103:void signup(android.view.View) -> signup
+    107:113:void onCreate(android.os.Bundle) -> onCreate
 com.parse.starter.MainActivity$1 -> com.parse.starter.MainActivity$1:
     com.parse.starter.MainActivity this$0 -> this$0
-    67:67:void <init>(com.parse.starter.MainActivity) -> <init>
-    71:84:void done(com.parse.ParseUser,com.parse.ParseException) -> done
-    67:67:void done(java.lang.Object,java.lang.Throwable) -> done
+    63:63:void <init>(com.parse.starter.MainActivity) -> <init>
+    67:78:void done(com.parse.ParseUser,com.parse.ParseException) -> done
+    63:63:void done(java.lang.Object,java.lang.Throwable) -> done
 com.parse.starter.MainActivity$2 -> com.parse.starter.MainActivity$2:
     com.parse.starter.MainActivity this$0 -> this$0
-    93:93:void <init>(com.parse.starter.MainActivity) -> <init>
-    96:108:void done(com.parse.ParseException) -> done
-    93:93:void done(java.lang.Throwable) -> done
+    85:85:void <init>(com.parse.starter.MainActivity) -> <init>
+    88:100:void done(com.parse.ParseException) -> done
+    85:85:void done(java.lang.Throwable) -> done
 com.parse.starter.StarterApplication -> com.parse.starter.StarterApplication:
     22:22:void <init>() -> <init>
     26:46:void onCreate() -> onCreate
