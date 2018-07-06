@@ -1,3 +1,4 @@
+# ChatBox
 ChatBox is created keeping in mind the need of chat Application in the organization level.Every organization wants to have their own customized chat Application to be connected to everyone starting from the root level to the top officers.ChatBox facilitates user to send one to one text message to the other person.Flexible and scalable application which can be customized to ones requirement.
 
 
