@@ -27,7 +27,5 @@ The walkthrough of the application-
 
 Stepwise progressive code structure .Simple syntax and proper spacing and organizing.
 
-## **Test Cases**
-
 
 
