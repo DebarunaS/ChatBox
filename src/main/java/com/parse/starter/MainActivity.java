@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         if (ParseUser.getCurrentUser() != null) {
             Intent i = new Intent(getApplicationContext(), UserLlistActivity.class);
             startActivity(i);
+            finish();
         }
     }
 

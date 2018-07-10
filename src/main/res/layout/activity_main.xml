@@ -35,6 +35,7 @@
         android:layout_below="@+id/et1"
         android:layout_marginTop="32dp"
         android:ems="10"
+        android:inputType="textPassword"
         android:hint="Enter Password" />
 
     <Button

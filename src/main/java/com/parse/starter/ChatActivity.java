@@ -56,6 +56,7 @@ public class ChatActivity extends AppCompatActivity {
         setTitle(activeUser);
         ListView chatlistview=(ListView)findViewById(R.id.ChatListView);
         arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,messages);
+        //arrayAdapter
         chatlistview.setAdapter(arrayAdapter);
         ParseQuery<ParseObject> query1=new ParseQuery<ParseObject>("Message");
         query1.whereEqualTo("sender",ParseUser.getCurrentUser().getUsername());
@@ -85,7 +86,7 @@ public class ChatActivity extends AppCompatActivity {
                             String messageContent=message.getString("message");
                             if(!message.getString("sender").equals(ParseUser.getCurrentUser().getUsername()))
                             {
-                                messageContent= ">"+messageContent;
+                                messageContent= "> "+messageContent;
                             }
                             messages.add(messageContent);
                         }
