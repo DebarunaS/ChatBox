@@ -465,30 +465,30 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f070048;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070049;
         public static final int abc_textfield_search_material = 0x7f07004a;
-        public static final int notification_template_icon_bg = 0x7f0700c8;
+        public static final int notification_template_icon_bg = 0x7f0700ca;
     }
     public static final class id {
-        public static final int action0 = 0x7f080003;
-        public static final int action_bar = 0x7f080004;
-        public static final int action_bar_activity_content = 0x7f080005;
-        public static final int action_bar_container = 0x7f080006;
-        public static final int action_bar_root = 0x7f080007;
-        public static final int action_bar_spinner = 0x7f080008;
-        public static final int action_bar_subtitle = 0x7f080009;
-        public static final int action_bar_title = 0x7f08000a;
-        public static final int action_context_bar = 0x7f08000b;
-        public static final int action_divider = 0x7f08000c;
-        public static final int action_menu_divider = 0x7f08000d;
-        public static final int action_menu_presenter = 0x7f08000e;
-        public static final int action_mode_bar = 0x7f08000f;
-        public static final int action_mode_bar_stub = 0x7f080010;
-        public static final int action_mode_close_button = 0x7f080011;
-        public static final int activity_chooser_view_content = 0x7f080012;
-        public static final int alertTitle = 0x7f080015;
-        public static final int always = 0x7f080016;
-        public static final int beginning = 0x7f080023;
-        public static final int buttonPanel = 0x7f080027;
-        public static final int cancel_action = 0x7f080032;
+        public static final int action0 = 0x7f080002;
+        public static final int action_bar = 0x7f080003;
+        public static final int action_bar_activity_content = 0x7f080004;
+        public static final int action_bar_container = 0x7f080005;
+        public static final int action_bar_root = 0x7f080006;
+        public static final int action_bar_spinner = 0x7f080007;
+        public static final int action_bar_subtitle = 0x7f080008;
+        public static final int action_bar_title = 0x7f080009;
+        public static final int action_context_bar = 0x7f08000a;
+        public static final int action_divider = 0x7f08000b;
+        public static final int action_menu_divider = 0x7f08000c;
+        public static final int action_menu_presenter = 0x7f08000d;
+        public static final int action_mode_bar = 0x7f08000e;
+        public static final int action_mode_bar_stub = 0x7f08000f;
+        public static final int action_mode_close_button = 0x7f080010;
+        public static final int activity_chooser_view_content = 0x7f080011;
+        public static final int alertTitle = 0x7f080014;
+        public static final int always = 0x7f080015;
+        public static final int beginning = 0x7f080022;
+        public static final int buttonPanel = 0x7f080026;
+        public static final int cancel_action = 0x7f080031;
         public static final int checkbox = 0x7f080042;
         public static final int chronometer = 0x7f080043;
         public static final int collapseActionView = 0x7f080045;
@@ -557,10 +557,10 @@ public final class R {
         public static final int title = 0x7f0800e5;
         public static final int title_template = 0x7f0800e7;
         public static final int topPanel = 0x7f0800eb;
-        public static final int up = 0x7f0800ed;
-        public static final int useLogo = 0x7f0800ef;
-        public static final int withText = 0x7f0800f1;
-        public static final int wrap_content = 0x7f0800f3;
+        public static final int up = 0x7f0800ec;
+        public static final int useLogo = 0x7f0800ee;
+        public static final int withText = 0x7f0800f0;
+        public static final int wrap_content = 0x7f0800f2;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur = 0x7f090000;

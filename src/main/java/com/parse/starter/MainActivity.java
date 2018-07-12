@@ -40,67 +40,42 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void loginMode(View view) {
-        Button LoginButton = (Button) findViewById(R.id.b1);
-        TextView loginText = (TextView) findViewById(R.id.tv1);
-        if (loginMode) {
-            loginMode = false;
-            LoginButton.setText("SignUp");
-            loginText.setText("Or,LogIn");
-        } else {
-            loginMode = true;
-            LoginButton.setText("LogIn");
-            loginText.setText("Or,SignUp");
-
-        }
-    }
-
     public void signup(View view) {
-        EditText et1, et2;
+        final EditText et1, et2;
         et1 = (EditText) findViewById(R.id.et1);
         et2 = (EditText) findViewById(R.id.et2);
-        if (loginMode) {
 
-            ParseUser.logInInBackground(et1.getText().toString(), et2.getText().toString(), new LogInCallback() {
-                @Override
-                public void done(ParseUser user, ParseException e) {
+        ParseUser.logInInBackground(et1.getText().toString(), et2.getText().toString(), new LogInCallback() {
+            @Override
+            public void done(ParseUser user, ParseException e) {
+                if (e == null) {
+                    Log.i("Info", "user Logged In");
+                    redirectifloggedin();
+                } else {
 
-                    if (e == null) {
-                        Log.i("Info", "user Logged In");
-                        redirectifloggedin();
-                    } else {
-                        String message = e.getMessage();
-                        if (message.toLowerCase().contains("java")) {
-                            message = e.getMessage().substring(e.getMessage().indexOf(" "));
+                    user = new ParseUser();
+                    user.setUsername(et1.getText().toString());
+                    user.setPassword(et2.getText().toString());
+                    user.signUpInBackground(new SignUpCallback() {
+                        @Override
+                        public void done(ParseException e) {
+                            if (e == null) {
+                                Log.i("INFO", "user signed up");
+                                redirectifloggedin();
+
+                            } else {
+                                String message = e.getMessage();
+                                if (message.toLowerCase().contains("java")) {
+                                    message = e.getMessage().substring(e.getMessage().indexOf(" "));
+                                }
+                                Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+                            }
+
                         }
-                        Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-
-                    }
+                    });
                 }
-            });
-
-        } else {
-            ParseUser user = new ParseUser();
-            user.setUsername(et1.getText().toString());
-            user.setPassword(et2.getText().toString());
-            user.signUpInBackground(new SignUpCallback() {
-                @Override
-                public void done(ParseException e) {
-                    if (e == null) {
-                        Log.i("INFO", "user signed up");
-                        redirectifloggedin();
-
-                    } else {
-                        String message = e.getMessage();
-                        if (message.toLowerCase().contains("java")) {
-                            message = e.getMessage().substring(e.getMessage().indexOf(" "));
-                        }
-                        Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-                    }
-
-                }
-            });
-        }
+            }
+        });
     }
 
     @Override
@@ -108,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("whatsapp Login");
-        //redirectifloggedin();
+        setTitle("ChatBox");
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
+
 }

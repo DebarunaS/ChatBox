@@ -1,19 +1,10 @@
-#Wed Jul 11 00:16:22 IST 2018
+#Fri Jul 13 02:05:06 IST 2018
+path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-base.4=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.3=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\15
-base.2=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-base.1=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-base.0=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex
+base.2=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\19
