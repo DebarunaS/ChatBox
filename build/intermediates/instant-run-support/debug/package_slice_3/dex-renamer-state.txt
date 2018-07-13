@@ -1,4 +1,4 @@
-#Thu Jul 12 23:36:49 IST 2018
-base.0=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+#Fri Jul 13 11:09:38 IST 2018
+base.0=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\23
 path.0=classes.dex
 renamed.0=classes.dex

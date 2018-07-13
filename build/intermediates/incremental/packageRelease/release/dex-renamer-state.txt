@@ -1,4 +1,4 @@
-#Fri Jul 13 02:08:28 IST 2018
+#Fri Jul 13 11:11:46 IST 2018
 base.0=C\:\\Users\\Windows\\Desktop\\whatsapp\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
