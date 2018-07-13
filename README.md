@@ -14,9 +14,8 @@ The initial version of the application is a simple ChatBox both flexible and sca
 ##  **Instructions**
 
 The walkthrough of the application-
-1. Firstly users have to sign themselves up.If are already signed up start from step 2.
-2. Log in and you will come into the user list ,the users who have already signed up.
-3. Tapping on the user you want to chat you can start with your great chat expirence.
+1. Log in/Sign up by putting your username and password.
+2. Tapping on the user you want to chat you can start with your great chat expirence.
 
 ## **Tools**
 
